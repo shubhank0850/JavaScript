@@ -1,0 +1,2 @@
+1] Stack (Used by Prrimitive datatypes)
+2] Heap (Used by Non-primitive datatypes)
