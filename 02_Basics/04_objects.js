@@ -58,8 +58,8 @@ const users = [
     }
 ]
 
-users[1].email
-console.log(tinderUser);
+// users[1].email
+// console.log(tinderUser);
 // Accessing keys of Object
 // console.log(Object.keys(tinderUser));
 // Accessing values of object
@@ -69,5 +69,25 @@ console.log(tinderUser);
 // console.log(Object.entries(tinderUser));
 
 // Checking if the object has any specific property
-console.log(tinderUser.hasOwnProperty('isLogged'));
+// console.log(tinderUser.hasOwnProperty('isLogged'));
 
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+}
+
+// Object de-structure
+
+// course.courseInstructor
+// Different approach to access values of object (de-structure the object)
+const {courseInstructor: instructor/*reference of courseInstructor*/} = course
+console.log(instructor);
+
+// Just as example for de-structuring
+const navbar = ({company}) => { // you can also use props.company instead of {company}
+
+}
+
+navbar(company = "Microsoft")
+console.log(company);
