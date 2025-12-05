@@ -3,7 +3,7 @@
    because of issue in block scope and functional scope
 
 2. In Js if you declare a variable and does not assign a value to it,
-   then it prints undefined. (Eaxmple: line 15)
+   then it prints undefined. (Eaxmple: line 13)
 */
 
 const accountId = 13335
