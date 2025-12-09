@@ -55,3 +55,26 @@ let str3 = str1 + str2
 // console.log("1" + "2"); /12
 // console.log("1" + 2 + 2); //122
 // console.log(1 + 2 + "2"); //32 [(1+2) + "2"]
+
+
+// Augmented assignment operator
+let student = 30;
+
+student += 1;
+student -= 1;
+student *= 2;
+student **= 2;
+student /= 2;
+student %= 2;
+
+// Incerment and Decrement
+student++;
+student--;
+
+/*
+    Operator Precedence
+    1. parenthesis ()
+    2. exponents
+    3. Multiplication & Division & Modulo
+    4. Addition & Subtraction
+*/
