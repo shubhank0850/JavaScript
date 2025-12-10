@@ -50,9 +50,10 @@ Number.isFinite
 
 
 /********** Maths ***********/
+/* Built-in Object that provides a collection of properties and methods. */
 
 console.log(Math);
-// returns absolute values.
+// Returns absolute values.
 // console.log(Math.abs(-123));
 // Rounds off the decimal number
 // console.log(Math.round(4.6));
@@ -63,6 +64,21 @@ console.log(Math);
 // Returns the greatest integer less than or equal to its argument.
 // console.log(Math.floor(4.8));
 // console.log(Math.floor(4.2));
+
+// Returns the square root of the number
+console.log(Math.sqrt(25));
+
+// Returns the Logarithmic value of a number
+console.log(Math.log(8));
+
+// Returns the number by removing the decimalpoint numbers
+console.log(Math.trunc(3.25))
+
+// Returns the power of the number
+let x = 2;
+let y = 3;
+
+console.log(Math.pow(x, y)) // x^y
 
 
 // random() function:
