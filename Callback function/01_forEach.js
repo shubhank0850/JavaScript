@@ -1,4 +1,4 @@
-// forEach() = method used to iterate over the elements
+// .forEach() = method used to iterate over the elements
 //             of an array and apply a specific function (callback)
 //             to each element
 
